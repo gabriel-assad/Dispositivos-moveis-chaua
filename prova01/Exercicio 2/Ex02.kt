@@ -1,6 +1,6 @@
 fun ehBissexto(ano: Int): Boolean {
     // Retorna verdadeiro se o ano for bissexto
-    return (ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0)
+    return (ano % 4 == 0 && ano % 100 != 0)
 }
 
 fun verificarData(dia: Int, mes: Int, ano: Int): String {
